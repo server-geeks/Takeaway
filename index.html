@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Takeaway</title>
+	<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+	<meta content="width=device-width,intial-scale=1.0,user-scalable=no" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+
+</head>
+
+<body>
+	<!----------HEADER CODE---------->
+
+	<div class="header h-stick">
+		<div class="section1">
+			<div class="hamburger">
+				<span class="iconify" data-icon="icon-park-outline:hamburger-button"></span>
+			</div>
+			<img src="./Assets/media/twy-logo-text.png">
+		</div>
+		<div class="navigation">
+			<div class="nav-box">
+				<div class="nav-location">
+					<span class="iconify loc" data-icon="fluent:location-16-filled" style="color: #4fc1e9;"></span>
+					<input class="input-address" placeholder="Home - Old Mahavir Nagar, Tilak Nagar">
+					<span class="iconify drop" data-icon="ls:dropdown" style="color: #4f4f4f;"></span>
+				</div>
+				<span class="iconify divide" data-icon="fluent:divider-tall-16-filled" style="color: #cfcfcf;"></span>
+
+				<div class="nav-search">
+					<span class="iconify search-btn" data-icon="akar-icons:search" style="color: #828282;"></span>
+					<input class="input-search" placeholder="Search for restaurant, cuisine or a dish">
+				</div>
+			</div>
+		</div>
+
+		<div class="user-bar">
+			<div class="search-div-sml">
+				<span class="iconify search-btn-sml" data-icon="akar-icons:search" style="color: #828282;"></span>
+				Search
+			</div>
+			<div class="ctg-div hov-eff">
+				<span class="iconify drop" data-icon="ls:dropdown"></span>
+				Categories
+			</div>
+
+			<div class="signin-div hov-eff">
+				<span class="iconify user" data-icon="clarity:user-line"></span>
+				Sign In
+			</div>
+
+			<div class="cart-div">
+				<button class="cart-btn">
+					<span class="iconify" data-icon="ant-design:shopping-cart-outlined"></span>
+					Cart
+				</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<!----------MAIN CONTENT---------->
+
+	<div class="main-content">
+		<div class="frst-sec">
+			<div class="frst-sec-left">
+				<img src="Assets\media\section1-left.svg" alt="" class="frst-sec-left-img">
+			</div>
+			<div class="frst-sec-mid">
+				<button class="btn-delivery">Delivery
+					<img src="https://img.icons8.com/ios-filled/50/000000/motorcycle-delivery-multiple-boxes.png" />
+				</button>
+				<button class="btn-takeaway">Takeaway
+					<img src="https://img.icons8.com/ios-filled/50/000000/take-away-food.png" />
+				</button>
+				<button class="btn-dinout">Dining Out
+					<img
+						src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/50/000000/external-dinner-kitchen-flatart-icons-solid-flatarticons.png" />
+				</button>
+
+				<button class="btn-groceries">Grocery
+					<img
+						src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/50/000000/external-eco-bag-ecology-vitaliy-gorbachev-fill-vitaly-gorbachev.png" />
+				</button>
+			</div>
+			<div class="frst-sec-right">
+				<img src="Assets\media\section1-right.svg" alt="" class="frst-sec-right-img">
+			</div>
+		</div>
+		<div class="filters">
+			<button class="btn-fltr">Filter
+				<img src="https://img.icons8.com/material-two-tone/24/000000/sorting-options.png" />
+			</button>
+			<button class="btn-rating">Rating 4.0+
+				<img src="https://img.icons8.com/material-rounded/24/000000/rating.png" />
+			</button>
+			<button class="btn-hygine">Safe & Hygine
+				<img src="https://img.icons8.com/ios-filled/30/000000/clean-hands.png" />
+			</button>
+			<button class="btn-veg">Pure Veg
+				<img src="https://img.icons8.com/ios-filled/30/000000/vegetarian-mark--v1.png" />
+			</button>
+			<button class="btn-dlvry">Delivery Time
+				<img src="https://img.icons8.com/pastel-glyph/30/000000/local-delivery-time--v1.png" />
+			</button>
+			<button class="btn-offer">Great Offers
+				<img src="https://img.icons8.com/ios-glyphs/30/000000/discount.png" />
+			</button>
+			<button class="btn-cost">Pricing
+				<img src="https://img.icons8.com/glyph-neue/30/000000/money.png" />
+			</button>
+		</div>
+
+
+	</div>
+
+	<!---------Category List--------->
+	<div class="center">
+		<div class="categories">
+			<div class="category">
+				<h1>Explore By Category</h1>
+				<div class="view">
+					<div class="viewAll">
+						<p>View all</p>
+					</div>
+					<div class="arrow">
+						<span class="iconify arrow-backward" data-icon="uil:arrow-circle-left"></span>
+						<span class="iconify arrow-forward" data-icon="uil:arrow-circle-right"></span>
+					</div>
+				</div>
+			</div>
+			<div class="types">
+				<button class="type">Fast Food
+					<img class="logo" alt="Fast Food"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/FastFood_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Breakfast
+					<img class="logo" alt="Breakfast and Brunch"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Breakfast_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">American
+					<img class="logo" alt="American"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/American_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Mexican
+					<img class="logo" alt="Mexican"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Mexican_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Chinese
+					<img class="logo" alt="Chinese"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Chinese_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Japanese
+					<img class="logo" alt="Japanese"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Japanese_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Italian
+					<img class="logo" alt="Italian"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Italian_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Healthy
+					<img class="logo" alt="Healthy"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Healthy_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Asian
+					<img class="logo" alt="Asian"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Asian_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Indian
+					<img class="logo" alt="Indian"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Indian_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Thai
+					<img class="logo" alt="Thai"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Thai_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Taiwanese
+					<img class="logo" alt="Taiwanese"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Taiwanese_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Alcohol
+					<img class="logo" alt="Alcohol"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Alcohol_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Halal
+					<img class="logo" alt="Halal"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Halal_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Bakery
+					<img class="logo" alt="Bakery"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Bakery_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Comfort Food
+					<img class="logo" alt="Comfort Food"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/ComfortFood_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Middle Eastern
+					<img class="logo" alt="Middle Eastern"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/MiddleEastern_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Pizza
+					<img class="logo" alt="Pizza"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Pizza_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Turkish
+					<img class="logo" alt="Turkish"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Turkish_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Korean
+					<img class="logo" alt="Korean"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Korean_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Deli
+					<img class="logo" alt="Deli"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Deli_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Brazilian
+					<img class="logo" alt="Brazilian"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Brazilian_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">Desserts
+					<img class="logo" alt="Desserts"
+						src="https://tb-static.uber.com/prod/web-eats-v2/categories/icons/Dessert_CuisineCarousel@2x.png">
+				</button>
+				<button class="type">German
+					<img class="logo" src="./Assets/media/german.jpg">
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!---------RESTAURANTS--------->
+
+	<h1 class="res-head">Restaurants</h1>
+	<div class="restaurant">
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lvmm2si1q2kglve34dk3"
+					alt="Baljeet's Amritsari Kulcha" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Baljeet's Amitsari Kulcha</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">North Indian, Snacks, Desserts, Indian</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/chains/1/491/fba01c7a0a33fe1d4b2a48ad364e55ec_o2_featured_v2.jpg"
+					alt="bikanervala" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Bikanervala</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.8</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Mithai,North Indian,South Indian,Chinese</span>
+					<span>&#8377;250 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/dqxel3umlcwstdhmuco1"
+					alt=" Bitu Tikki Wala" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name"> Bitu Tikki Wala</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Street Food,Indian,North Indian,Desserts,Bevverages,Sweets</span>
+					<span>&#8377;150 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/o2sygqkadp67l5urgavr"
+					alt="biryani blues" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Biryani blues</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Biryani,Hydrabadi,Lucknowi,Desserts,Beverages</span>
+					<span>&#8377;300 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/num2ggkg4clo0ntutpnr"
+					alt="Dineroom" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Dineroom</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.0</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Chinese,Indian,Salads,Desserts</span>
+					<span>&#8377;400for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/chains/3/143/c9996dd70c88230268cb00d20a92b7cf_o2_featured_v2.jpg?output-format=webp"
+					alt=" Dominoess" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Domino's</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.0</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Pizza, Fast Food, Desserts, Beverages</span>
+					<span>&#8377;100 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Starbucks_cqwyko"
+					alt="Starbucks" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Starbuck</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">1.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Beverages,Ice Cream</span>
+					<span>&#8377;500 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/aileba1gz4wkugzkbe30"
+					alt="Subway" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Subway</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.8</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Fast Food, Salads, Snacks, Desserts, Beverages</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/6/19131716/b56d9e9d36510cc89c31f611ab79ac4f_o2_featured_v2.jpg"
+					alt="taco bell" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Taco bell</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">2.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Mexican,Fast FoodWrapsBeverages</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/3/18742153/b4f773422ecf7c432d6b5b467551a313_o2_featured_v2.jpg"
+					alt="Gupta restaurant" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Gupta restaurant</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">North Indian,Chinese,South Indian </span>
+					<span>&#8377;300 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/chains/0/550/a915df22032cd899f9cab92e1bb57c8c_o2_featured_v2.jpg"
+					alt="Haldiram" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name"> Haldiram</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">South Indian,Mithai,North Indian</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ds5pkjzsjsvfxb2xhmsp"
+					alt="Sita Ram Diwan Chand" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Sita Ram Diwan Chand</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">North Indian, Snacks, Desserts, Indian</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ryrxqsplo49j97qxhxlv"
+					alt="Wendy’s" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Wendy’s</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.3</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">American,Fast food</span>
+					<span>&#8377;250 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/chains/6/18082196/cc7cfcafbaa312b8e003ab60181246b0_o2_featured_v2.jpg"
+					alt="Wow Momos" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Wow Momos</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.1</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg"></span>
+					<span>&#8377;100 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/chains/6/18273566/80b00bc9daa926cbbd9eff789af62525_o2_featured_v2.jpg"
+					alt="Wat-a Burger" class="res-img" loading="lazy">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Wat-a Burger</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Burger,Fast food,Beverages</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/kha2tl8fqgmuly9ew126"
+					loading="lazy" alt="" class="res-img">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">The Chai Story</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.5</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Snacks,Beverages</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://b.zmtcdn.com/data/pictures/chains/1/171/0094c2b5485c4c2f52c931306442269b_o2_featured_v2.jpg?output-format=webp"
+					loading="lazy" alt="" class="res-img">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Mc Donald’s</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.2</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Burger, Fast Food, Beverages</span>
+					<span>&#8377;150 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/v3zgmry1jzgxiq4syqu5"
+					loading="lazy" alt="" class="res-img">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Milan Dhaba</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.2</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">North Indian, Chineses</span>
+					<span>&#8377;150 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bcdzoga3ccxpryzvisup"
+					loading="lazy" alt="" class="res-img">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Meal Studio</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">3.6</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Indian, Combo, Beverage</span>
+					<span>&#8377;200 for one</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="res-card">
+			<div class="res-photo">
+				<img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/j8khxkdkcc93iszboadz"
+					loading="lazy" alt="" class="res-img">
+			</div>
+			<div class="res-details">
+				<div class="row1">
+					<span class="name">Pizza hut</span>
+					<div class="rating-box">
+						<div class="rating">
+							<span class="card-rating">4.7</span>
+							<span class="iconify" data-icon="ant-design:star-filled" style="color: white;"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<span class="ctg">Fast Food, Pizzas</span>
+					<span>&#8377;250 for one</span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!----------FOOTER CODE---------->
+	<hr>
+	<footer class="ft">
+		<div class="ft-left">
+			<div class="logo">
+				<!-- <video width="250" height="250" autoplay loop>
+					<source src="./Assets/media/Takeaway_Logo.mp4" type="video/mp4">
+				</video> -->
+				<img src="./Assets/media/logo-btm.gif" height="250px" width="250px">
+			</div>
+			<div class="about">
+				<div class="company">
+
+					<span class="head-text">
+						COMPANY
+					</span>
+					<div class="text">
+						<br><span>Who we are</span><br>
+						<span>Blog</span><br>
+						<span>Careers</span><br>
+						<span>Report fraud</span><br>
+						<span>Contact</span><br>
+						<span>Investor Relations</span>
+					</div>
+				</div>
+				<div class="for-restaurants">
+					<span class="head-text">
+						FOR RESTAURANTS
+					</span>
+					<div class="text">
+						<br><span>Add Restaurant</span><br>
+						<span>Business App</span><br>
+						<span>Restaurant Widgets</span><br>
+						<span>Product for Business</span>
+					</div>
+				</div>
+				<div id="for-you">
+					<span class="head-text">
+						FOR YOU
+					</span>
+					<div class="text">
+						<br><span>Privacy</span><br>
+						<span>Terms</span><br>
+						<span>Security</span><br>
+						<span>Sitemap</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-right">
+			<div class="first-ft">
+				<span class="iconify" data-icon="twemoji:flag-for-flag-india" data-width="50" data-height="50"></span>
+
+				<span class="second-ft">
+					<span class="iconify" data-icon="bi:globe" data-width="23" data-height="23"
+						magrin-left="10px"></span>
+					<span class="eng">English </span>
+				</span>
+			</div>
+			<div class="smd">
+				<span class="iconify" data-icon="simple-icons:youtube" data-width="40" data-height="40"></span>
+				<span class="iconify" data-icon="simple-icons:facebook" data-width="35" data-height="35"></span>
+				<span class="iconify" data-icon="bx:bxl-instagram-alt" data-width="40" data-height="40"></span>
+				<span class="iconify" data-icon="akar-icons:twitter-fill" data-width="35" data-height="35"></span>
+			</div>
+			<div class="glp">
+				<span class="iconify" data-icon="logos:google-play" data-width="150" data-height="50"></span>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="./script/script.js"></script>
+
+</html>
